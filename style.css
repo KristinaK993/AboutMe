@@ -101,3 +101,27 @@
   transform: translateY(-4px);
 }
 
+.footer-section {
+  background-color: #fde9f4;
+  padding: 60px 20px;
+  margin-top: 80px;
+  text-align: center;
+  color: #d15ca3;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.footer-section .thank-you {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-section .email {
+  font-size: 1.1rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+
